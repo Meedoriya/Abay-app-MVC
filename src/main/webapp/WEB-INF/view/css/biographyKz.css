@@ -1,0 +1,184 @@
+body {
+    background-color: #f1ebe6;
+}
+
+h1 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 100%;
+    /* identical to box height, or 96px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.divider {
+    height: 1px;
+
+    background: #000000;
+    opacity: 0.3;
+    width: 1200px;
+}
+
+.short-divider {
+    height: 1px;
+
+    background: #000000;
+    opacity: 0.3;
+    width: 904px;
+    margin-left: 58px;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between; /* This will push the items to the edges */
+    align-items: flex-end; /* This will align items to the bottom */
+}
+
+.text-left {
+    align-self: flex-end;
+}
+
+.text-right {
+    align-self: flex-end;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+
+    color: #1e1e1e;
+    width: 237px;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /* vertically aligns the items in the middle */
+}
+
+.header-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+
+    margin: 0;
+    color: #1e1e1e;
+}
+
+.footer-quote {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    width: 681px;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+}
+
+h2 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    /* identical to box height, or 60px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.slider {
+    width: 100%;
+    background-color: #f1ebe6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.slider-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-item {
+    margin: 10px 0;
+}
+
+.slider-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.slider-item a:hover {
+    color: #000;
+    font-weight: bold;
+}

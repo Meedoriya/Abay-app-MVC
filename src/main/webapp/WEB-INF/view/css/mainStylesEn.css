@@ -1,0 +1,263 @@
+body {
+    background-color: #f1ebe6;
+}
+
+h1 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    margin: 0;
+}
+
+h3 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.divider {
+    height: 1px;
+
+    background: #000000;
+    opacity: 0.3;
+}
+
+.block {
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+.divider {
+    width: 1200px;
+    height: 1px;
+    background-color: #000000;
+}
+
+p {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+button {
+    box-sizing: border-box;
+
+    width: 110px;
+    height: 44px;
+
+    border: 1px solid #1e1e1e;
+    border-radius: 45px;
+    background-color: #f1ebe6;
+}
+
+.w-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-grid {
+    grid-row-gap: 15px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.biography-grid {
+    flex-direction: column;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 251px auto 1fr;
+    grid-column-gap: 45px;
+}
+
+h4 {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 25px */
+
+    color: #1e1e1e;
+    margin-bottom: 0;
+}
+
+.biography-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-grid {
+    flex-direction: column;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.name-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #282828;
+}
+
+.quote-text {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+    color: #1e1e1e;
+}
+
+.words-grid {
+    flex-direction: column;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.words-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    width: 224px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 75px;
+    gap: 10px;
+
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+.button-text {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button-grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    margin-top: 15px;
+    margin: 0;
+}
+
+.header-text {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+
+    margin: 0;
+    color: #1e1e1e;
+}
+
+.footer-quote {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    width: 532px;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+}
+
+h2 {
+    font-family: "TT Livret Text Trial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    /* identical to box height, or 60px */
+
+    text-transform: uppercase;
+
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.slider {
+    width: 100%;
+    background-color: #f1ebe6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.slider-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-item {
+    margin: 10px 0;
+}
+
+.slider-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.slider-item a:hover {
+    color: #000;
+    font-weight: bold;
+}
